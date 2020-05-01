@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Market Api",
+    "cluster": false,
+    "baseUrl": {
+      "default": "localhost"
+    },
+    "port": 8081,
+    "portS": 8443,
+    "path-qql": "/api",
+    "lang": [
+      "es",
+      "en"
+    ]
+  },
+  "webpack": {
+    "uglify-js": false,
+    "public-path": "./public/",
+    "bundles": {
+      "js": "bundle.[name].js",
+      "css": "bundle.[name].css"
+    }
+    
+  }
+}

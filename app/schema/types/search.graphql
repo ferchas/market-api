@@ -1,0 +1,5 @@
+
+# Queries
+extend type Query {
+  search(word: String): [Product]
+}
