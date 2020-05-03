@@ -1,7 +1,9 @@
 type Product {
-  id: ID!
+  id: ID
   name: String,
   description: String,
   price: Float,
+  currencySymbol: String,
   quantity: Int,
+  pictures: [Picture]
 }

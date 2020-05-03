@@ -4,7 +4,7 @@
   "description": "list product",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon -w app --ext js,graphql --exec \"babel-node app\"",
+    "dev": "nodemon -w app --ext js,graphql,json --exec \"babel-node app\"",
     "build": "npm run cleanup && babel src -D -d dist",
     "start": "node dist/index.js",
     "cleanup": "rm -rf dist",
